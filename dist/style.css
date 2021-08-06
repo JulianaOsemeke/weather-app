@@ -1,5 +1,5 @@
 body {
-  background: rgb(160, 112, 120);
+  background: rgb(232, 191, 191);
   color: black;
   margin: 0;
   padding: 0;
@@ -54,14 +54,14 @@ body {
 
 .condition {
   line-height: 1em;
-  font-family: 700;
+  font-weight: 700;
   font-size: 1em;
   text-transform: capitalize;
 }
 
 .high::before {
   content: '';
-  background: url();
+  background: url('./Assets/arrow-up.svg') no-repeat;
   width: 10px;
   height: 15px;
   display: inline-block;
@@ -71,7 +71,7 @@ body {
 
 .low::before {
   content: '';
-  background: url();
+  background: url('./Assets/arrow-down.svg') no-repeat;
   width: 10px;
   height: 15px;
   display: inline-block;
