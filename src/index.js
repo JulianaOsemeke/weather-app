@@ -11,3 +11,10 @@ const requestCity = async (city) => {
   const data = await response.json();
   return data;
   }
+
+const searchForm = document.querySelector('.search-location');
+const cityValue = document.querySelector('.search-location input');
+const cityName = document.querySelector('.city-name p');
+const cardBody = document.querySelector('.card-body');
+const timeImage = document.querySelector('.card-top img');
+const roundCard = document.querySelector('.back-card');
