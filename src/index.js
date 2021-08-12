@@ -58,8 +58,8 @@ updateWeather = (city) => { // eslint-disable-line
   <span>Humidity</span>
   </div>
   `;
-  if (isDayTime(imageName)) {
-    console.log('day');
+  if (isDayTime(imageName)) { // eslint-disable-line
+    isDayTime('day'); // eslint-disable-line
     timeImage.setAttribute('src', 'Assets/sunny.svg');
     if (cityName.classList.contains('text-white')) {
       cityName.classList.remove('text-black');
@@ -67,7 +67,7 @@ updateWeather = (city) => { // eslint-disable-line
       cityName.classList.add('text-black');
     }
   } else {
-    console.log('night');
+    isDayTime('night'); // eslint-disable-line
     timeImage.setAttribute('src', 'Assets/night-sky.svg');
     if (cityName.classList.contains('text-black')) {
       cityName.classList.remove('text-black');
@@ -87,5 +87,5 @@ searchForm.addEventListener('submit', (event) => {
     .then((data) => {
       updateWeather(data); // eslint-disable-line
     })
-    .catch((error) => { console.log(error); });
+    .catch((error) => { citySearched.log(error); });
 });
