@@ -18,18 +18,18 @@ const timeImage = document.querySelector('.card-top img');
 const roundCard = document.querySelector('.back-card');
 
 const convertToCelsius = (kelvin) => {
-  celsius = Math.round(kelvin - 273.15);
-  return celsius;
+  celsius = Math.round(kelvin - 273.15); // eslint-disable-line
+  return celsius; // eslint-disable-line
 };
 
-isDayTime = (icon) => {
+isDayTime = (icon) => { // eslint-disable-line
   if (icon.includes('d')) {
     return true;
   }
   return false;
 };
 
-updateWeather = (city) => {
+updateWeather = (city) => { // eslint-disable-line
   const imageName = city.weather[0].icon;
   const iconSrc = `http://openweathermap.org/img/wn/${imageName}@2x.png`;
   cityName.textContent = city.name;
@@ -85,7 +85,7 @@ searchForm.addEventListener('submit', (event) => {
   searchForm.reset();
   requestCity(citySearched)
     .then((data) => {
-      updateWeather(data);
+      updateWeather(data); // eslint-disable-line
     })
     .catch((error) => { console.log(error); });
 });
