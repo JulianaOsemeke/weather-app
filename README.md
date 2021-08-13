@@ -1,6 +1,7 @@
-# weather-app
-A solo project that entails building a weather app with webpack
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# weather-app
+A simple weather app that extracts information from the openweathermap.org/api thereby enabling users accurately forecast weather conditions in different cities. This app was built with Javascript and Webpack with emphasis on the async/await concept.
 
 
 ![screenshot](dist/Assets/weatherapp.png)
@@ -8,6 +9,8 @@ A solo project that entails building a weather app with webpack
 ## Built With
 - JavaScript
 - Webpack
+- Open Weather Map API
+- Bootstrap v5.1.0
 - HTML5
 - CSS3
 
