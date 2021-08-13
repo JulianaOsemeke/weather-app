@@ -54,7 +54,7 @@ updateWeather = (city) => { // eslint-disable-line
   </div>
   </div>
   <div class="col text-center">
-  <p>${city.main.humidity}</p>
+  <p>${city.main.humidity}%</p>
   <span>Humidity</span>
   </div>
   `;
