@@ -18,8 +18,13 @@ const timeImage = document.querySelector('.card-top img');
 const roundCard = document.querySelector('.back-card');
 
 const convertToCelsius = (kelvin) => {
-  celsius = Math.round(kelvin - 273.15); // eslint-disable-line
+  const celsius = Math.round(kelvin - 273.15); // eslint-disable-line
   return celsius; // eslint-disable-line
+};
+
+const convertToFah = (Kelvin) => {
+  const celsius = Math.round(kelvin / 3.7);
+  return celsius
 };
 
 isDayTime = (icon) => { // eslint-disable-line
