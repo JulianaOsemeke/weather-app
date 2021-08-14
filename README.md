@@ -9,14 +9,10 @@ A simple weather app that extracts information from the openweathermap.org/api t
 ## Built With
 - JavaScript
 - Webpack
-- Open Weather Map API
+- OpenWeatherMap API
 - Bootstrap v5.1.0
 - HTML5
 - CSS3
-
-## Live Demo
-- [Live Demo Link]()
-
 
 ## Getting Started
 
@@ -25,7 +21,7 @@ A simple weather app that extracts information from the openweathermap.org/api t
 ```
 - $ git clone `$ git clone git@github.com:JulianaOsemeke/weather-app.git`
 - $ `cd weather-app`
-- $ npm install --save-dev webpack
+- $ npm install
 
 ```
 
