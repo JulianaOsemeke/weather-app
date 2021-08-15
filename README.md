@@ -14,6 +14,9 @@ A simple weather app that extracts information from the openweathermap.org/api t
 - HTML5
 - CSS3
 
+## Live Demo
+- [Live Demo Link](https://rawcdn.githack.com/JulianaOsemeke/weather-app/b800034198260801fb06343ddeb1bda5993d6beb/dist/index.html)
+
 ## Getting Started
 
 **simple steps set up on your local machine**
