@@ -4,7 +4,7 @@
 A simple weather app that extracts information from the openweathermap.org/api thereby enabling users accurately forecast weather conditions in different cities. This app was built with Javascript and Webpack with emphasis on the async/await concept.
 
 
-![screenshot](dist/Assets/weatherapp.png)
+![screenshot](dist/Assets/weather.png)
 
 ## Built With
 - JavaScript
